@@ -6,7 +6,7 @@
 1. LDAP Signing
 2. LDAP Channel Binding
 
-This script was developed during an Active Directory Audit conducted for a client. During that test, I only had a domain-joined machine, so I developed this code (obviously with the help of ChatGPT :innocent: ) to confirm the vulnerability and take proof of concept (PoC) for testing whether LDAP server-side protection is enabled or not.
+This script was developed during an Active Directory Audit conducted for a client. During that test, I only had a domain-joined machine, so I developed this code (obviously with the help of ChatGPT :innocent: ) to confirm the vulnerability and take proof of concept (PoC) showing LDAP server-side protection is enabled or not.
 
 ## Why it is important
 Enabling both LDAP Signing and LDAP Channel Binding is the most effective measure to mitigate the risk of LDAP relaying attacks. LDAP Signing protects the LDAP service, whereas LDAP Channel Binding works to protect the LDAPS service.
